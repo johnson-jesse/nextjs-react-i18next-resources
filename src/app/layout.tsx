@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <I18nextProvider>{children}</I18nextProvider>;
+        <I18nextProvider>{children}</I18nextProvider>
       </body>
     </html>
   );
