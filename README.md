@@ -1,5 +1,5 @@
 This is an example project showing how [Next.js](https://nextjs.org) can be setup using i18n and react-i18next. Specifically, this project is configured
-using `i18n.init resources` property to load translation files.Ø
+using `i18n.init resources` property to load translation files.
 
 ## Getting Started
 
