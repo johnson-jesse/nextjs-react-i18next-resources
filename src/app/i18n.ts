@@ -12,12 +12,18 @@ const resources: Resource = {
 i18n.use(initReactI18next).init({
   fallbackLng: "en",
   debug: false,
+  saveMissing: true,
+  saveMissingTo: "current",
 
   interpolation: {
     escapeValue: false, // not needed for react as it escapes by default
   },
 
   resources,
+
+  backend: {
+    addPath: "/i18n/missing/key/{{lng}}/{{ns}}",
+  },
 });
 
 export default i18n;
